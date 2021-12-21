@@ -28,12 +28,12 @@
     }
 }
 
-.card-image {
+.card-set__overlay {
     position: relative;
     overflow: hidden;
 }
 
-.card-image__text {
+.card-set__overlay-text {
     position: absolute;
     top: 0;
     left: 0;
@@ -64,14 +64,14 @@
     }
 }
 
-.card-text {
+.card-set__thumb {
     padding: 20px 24px;
 
     border: 1px var(--card-border-color);
     border-style: none solid solid;
 }
 
-.card-text__title {
+.card-set__title {
     margin-bottom: 4px;
 
     font-weight: 700;
@@ -81,7 +81,7 @@
     color: var(--secondary-title-color);
 }
 
-.card-text__label {
+.card-set__text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
